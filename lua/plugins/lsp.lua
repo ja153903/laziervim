@@ -7,6 +7,10 @@ return {
           return true
         end,
       },
+      servers = {
+        elixirls = {},
+        basedpyright = {},
+      },
     },
   },
 }
