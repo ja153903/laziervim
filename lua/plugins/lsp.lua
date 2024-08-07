@@ -11,6 +11,9 @@ return {
         elixirls = {},
         basedpyright = {},
       },
+      inlay_hints = {
+        enabled = false,
+      },
     },
   },
 }
