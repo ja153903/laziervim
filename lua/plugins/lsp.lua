@@ -9,7 +9,7 @@ return {
       },
       servers = {
         elixirls = {},
-        basedpyright = {},
+        tsserver = {},
         eslint = {
           settings = {
             workingDirectories = { mode = "auto" },
