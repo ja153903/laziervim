@@ -10,6 +10,7 @@
   "crates.nvim": { "branch": "main", "commit": "891063a2dc8471501b9742406a514be62a20c138" },
   "dashboard-nvim": { "branch": "master", "commit": "fabf5feec96185817c732d47d363f34034212685" },
   "flash.nvim": { "branch": "main", "commit": "34c7be146a91fec3555c33fe89c7d643f6ef5cf1" },
+  "flow.nvim": { "branch": "main", "commit": "3af4d4d1b8a99c34e060de6fdaa5babc596a50c1" },
   "friendly-snippets": { "branch": "main", "commit": "00ebcaa159e817150bd83bfe2d51fa3b3377d5c4" },
   "fzf-lua": { "branch": "main", "commit": "9226c5a2291ef623ef157e0e1ffea034ffc8b8de" },
   "github-nvim-theme": { "branch": "main", "commit": "6b461635230ccb5d0037f378fbe05a27c4ccf7cd" },
