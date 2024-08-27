@@ -18,6 +18,13 @@ return {
             },
           },
         },
+        views = {
+          mini = {
+            win_options = {
+              winblend = 0,
+            },
+          },
+        },
       })
     end,
   },
