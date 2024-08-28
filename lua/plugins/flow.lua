@@ -1,8 +1,7 @@
 return {
   {
     "0xstepit/flow.nvim",
-    lazy = false,
-    priority = 1000,
+    enabled = false,
     opts = {
       transparent = true, -- Set transparent background.
       fluo_color = "pink", --  Fluo color: pink, yellow, orange, or green.

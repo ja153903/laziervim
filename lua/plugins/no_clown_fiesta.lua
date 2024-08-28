@@ -1,3 +1,3 @@
 return {
-  { "aktersnurra/no-clown-fiesta.nvim", priority = 1000 },
+  { "aktersnurra/no-clown-fiesta.nvim", enabled = false },
 }

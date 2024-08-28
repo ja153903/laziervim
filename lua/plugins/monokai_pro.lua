@@ -1,6 +1,7 @@
 return {
   {
     "loctvl842/monokai-pro.nvim",
+    enabled = false,
     config = function()
       require("monokai-pro").setup({
         transparent_background = false,

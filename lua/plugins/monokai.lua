@@ -1,3 +1,3 @@
 return {
-  { "tanvirtin/monokai.nvim" },
+  { "tanvirtin/monokai.nvim", enabled = false },
 }
