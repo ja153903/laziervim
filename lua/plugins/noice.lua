@@ -9,6 +9,7 @@ return {
           },
         },
         cmdline = {
+          view = "cmdline",
           format = {
             search_down = {
               view = "cmdline",
