@@ -1,6 +1,7 @@
 return {
   {
     "rose-pine/neovim",
+    enabled = false,
     name = "rose-pine",
     opts = {
       variant = "auto", -- auto, main, moon, or dawn
