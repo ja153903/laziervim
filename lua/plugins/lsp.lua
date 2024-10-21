@@ -8,7 +8,6 @@ return {
         end,
       },
       servers = {
-        elixirls = {},
         eslint = {
           settings = {
             workingDirectories = { mode = "auto" },
