@@ -49,10 +49,10 @@ return {
           fish = { "fish_indent" },
           sh = { "shfmt" },
           cpp = { "clang-format" },
-          typescript = { "prettier", "eslint", stop_after_first = true },
-          typescriptreact = { "prettier", "eslint", stop_after_first = true },
-          javascript = { "prettier", "eslint", stop_after_first = true },
-          javascriptreact = { "prettier", "eslint", stop_after_first = true },
+          typescript = { "biome", "prettier", "eslint", stop_after_first = true },
+          typescriptreact = { "biome", "prettier", "eslint", stop_after_first = true },
+          javascript = { "biome", "prettier", "eslint", stop_after_first = true },
+          javascriptreact = { "biome", "prettier", "eslint", stop_after_first = true },
         },
         -- The options you set here will be merged with the builtin formatters.
         -- You can also define any custom formatters here.
