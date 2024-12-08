@@ -53,6 +53,7 @@ return {
           typescriptreact = { "biome", "prettier", "eslint", stop_after_first = true },
           javascript = { "biome", "prettier", "eslint", stop_after_first = true },
           javascriptreact = { "biome", "prettier", "eslint", stop_after_first = true },
+          python = { "black", stop_after_first = true },
         },
         -- The options you set here will be merged with the builtin formatters.
         -- You can also define any custom formatters here.
