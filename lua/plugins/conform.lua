@@ -49,10 +49,10 @@ return {
           fish = { "fish_indent" },
           sh = { "shfmt" },
           cpp = { "clang-format" },
-          typescript = { "biome", "prettier", "eslint", stop_after_first = true },
-          typescriptreact = { "biome", "prettier", "eslint", stop_after_first = true },
-          javascript = { "biome", "prettier", "eslint", stop_after_first = true },
-          javascriptreact = { "biome", "prettier", "eslint", stop_after_first = true },
+          typescript = { "biome", "prettier", stop_after_first = true },
+          typescriptreact = { "biome", "prettier", stop_after_first = true },
+          javascript = { "biome", "prettier", stop_after_first = true },
+          javascriptreact = { "biome", "prettier", stop_after_first = true },
           python = { "black", stop_after_first = true },
         },
         -- The options you set here will be merged with the builtin formatters.
@@ -60,6 +60,10 @@ return {
         ---@type table<string, conform.FormatterConfigOverride|fun(bufnr: integer): nil|conform.FormatterConfigOverride>
         formatters = {
           injected = { options = { ignore_errors = true } },
+          biome = {
+            require_cwd = true,
+          },
+          prettier = { require_cwd = true },
           -- # Example of using dprint only when a dprint.json file is present
           -- dprint = {
           --   condition = function(ctx)
